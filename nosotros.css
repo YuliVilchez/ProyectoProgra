@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(255, 199, 208);
+}
+ nav{
+    text-align: left;
+    background-color: white;
+    height: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+body header{
+    background-color: rgb(250, 125, 146);
+    text-align: center;
+    height: 100px;
+
+}
+.parra{
+    text-align: center;
+    background-color: rgb(246, 173, 246);
+    height: 96px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.mision{
+     text-align: center;
+    background-color: rgb(246, 173, 246);
+    height: 96px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.vision{
+    text-align: center;
+    background-color: rgb(246, 173, 246);
+    height: 96px;
+    font-family: 'Times New Roman', Times, serif;
+}
+ video {
+      width: 200px;
+      height: 360px;
+      border: 4px solid #ff69b4;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      display: block;
+      margin: 50px auto;
+    }
+.pie {
+  background-color: #ffa0a0;
+  padding: 15px 30px;
+  text-align: right;
+  font-size: 12px;
+  color: #333;
+  margin: 30px;
+}
+
+.footer-info {
+  display: inline-block;
+  text-align: right;
+}
+
+.footer-info p {
+  margin: 4px 0;
+}
+
+.social-icons {
+  margin-top: 8px;
+}
+
+.social-icons img {
+  width: 18px;
+  height: 18px;
+  margin-left: 5px;
+  vertical-align: middle;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.social-icons img:hover {
+  opacity: 1;
+}
+@media (max-width: 768px) {
+  nav {
+    text-align: center;
+    font-size: medium;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  video {
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+  }
+
+  .parra, .mision, .vision {
+    height: auto;
+    padding: 15px;
+  }
+
+  .parra h1, .mision h1, .vision h1 {
+    font-size: 20px;
+  }
+
+  .parra h3, .mision h3, .vision h3 {
+    font-size: 16px;
+  }
+
+  .pie {
+    text-align: center;
+    font-size: 11px;
+    margin: 20px;
+  }
+
+  .footer-info {
+    display: block;
+    text-align: center;
+  }
+
+  .social-icons {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .social-icons img {
+    width: 20px;
+    height: 20px;
+    margin: 0 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .parra h3, .mision h3, .vision h3 {
+    font-size: 14px;
+  }
+
+  .parra h1, .mision h1, .vision h1 {
+    font-size: 18px;
+  }
+
+  nav a {
+    padding: 8px 0;
+    display: block;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+}
